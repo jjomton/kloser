@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://kloser.app/sitemap.xml
+
+# Disallow admin and API routes
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /onboarding/
+
+# Allow public pages
+Allow: /
+Allow: /pricing
+Allow: /features
+Allow: /about
+Allow: /contact
